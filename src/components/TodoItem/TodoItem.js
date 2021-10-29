@@ -16,12 +16,12 @@ const TodoItem = ({task}) => {
     }
     const renderForm =()=>{
     return (
-        <div>
+     
             <form onSubmit ={editItemToState}>
                 <input type="text" defaultValue={task.task} ref ={textRef}/>
                 <button type="submit">Edit</button>
             </form>
-        </div>
+       
     )
 };
 const renderItem =()=>{
