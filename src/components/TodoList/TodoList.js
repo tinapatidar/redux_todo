@@ -8,9 +8,7 @@ const TodoList = () => {
         return <TodoItem task ={task} key ={task.id} />
     })
     return (
-        <div>
-            {taskItems}
-        </div>
+        <div> {taskItems} </div>
     )
 }
 
